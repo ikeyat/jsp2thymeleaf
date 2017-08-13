@@ -47,115 +47,32 @@ omitted...
 
 EL expression
 -----------------
+See [el.md](doc/jsp/el.md)
 
 EL function
 -----------------
+See [el.md](doc/jsp/el.md)
+
 
 JSP common config
 -----------------
 
 JSTL
 -----------------
+See [jstl.md](doc/jsp/jstl.md)
 
-### core
-
-### fmt
-
-### sql
-omitted...
-
-### xml
-omitted...
-
-### functions
 
 Spring form JSP taglibs
 =================
 
-``<form:form>``
------------------
-
-``<form:input>``
------------------
-
-``<form:password>``
------------------
-
-``<form:textarea>``
------------------
-
-``<form:checkboxes>``
------------------
-
-``<form:checkbox>``
------------------
-
-``<form:radiobuttons>``
------------------
-
-``<form:radiobutton>``
------------------
-
-``<form:select>``
------------------
-
-``<form:options>``
------------------
-
-``<form:option>``
------------------
-
-``<form:hidden>``
------------------
-
-``<form:label>``
------------------
-
-``<form:button>``
------------------
-
-``<form:errors>``
------------------
+See [form.md](doc/spring/form.md)
 
 
 Spring misc JSP taglibs
 =================
 
-``<spring:message>``
------------------
+See [misc.md](doc/spring/misc.md)
 
-``<spring:theme>``
------------------
-
-``<spring:argument>``
------------------
-
-``<spring:hasBindErrors>``
------------------
-
-``<spring:bind>``
------------------
-
-``<spring:nestedPath>``
------------------
-
-``<spring:transform>``
------------------
-
-``<spring:url>``
------------------
-
-``<spring:param>``
------------------
-
-``<spring:htmlEscape>``
------------------
-
-``<spring:escapeBody>``
------------------
-
-``<spring:eval>``
------------------
 
 
 Spring Security JSP taglibs
