@@ -14,27 +14,27 @@ http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#arithmetic-operat
 Objects
 -----------------
 
-* ``javax.servlet.jsp.PageContext``
+### ``javax.servlet.jsp.PageContext``
 
-* ``pageScope``
+### ``pageScope``
 
-* ``requestScope``
+### ``requestScope``
 
-* ``sessionScope``
+### ``sessionScope``
 
-* ``applicationScope``
+### ``applicationScope``
 
-* ``param``
+### ``param``
 
-* ``paramValues``
+### ``paramValues``
 
-* ``header``
+### ``header``
 
-* ``headerValues``
+### ``headerValues``
 
-* ``cookie``
+### ``cookie``
 
-* ``initParam``
+### ``initParam``
 
 EL function
 =================
