@@ -4,8 +4,38 @@ Pure JSP
 Directives
 -----------------
 
+### page directive
+omitted...
+
+### taglib directive
+Maybe this looks to be same as Thymeleaf Dialect.
+
+### include directive
+
+Before(JSP)
+```jsp
+<%@ include file="/WEB-INF/header.jsp"%>
+```
+
+After(Thymeleaf) : included html
+```html
+<div th:fragment="footer-fragment">
+  This is a footer.
+</div>
+```
+
+After(Thymeleaf) : including html
+```html
+<div th:insert="~{footer :: footer-fragment}"></div>
+```
+http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#including-template-fragments
+
+
 Scriptlet
 -----------------
+Not supported in Thymeleaf.
+Please migrate script into Java source code.
+
 
 Custom taglibs
 -----------------
