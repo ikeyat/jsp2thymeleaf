@@ -42,7 +42,7 @@ But partial migration must help developers.
 - Apache Tiles (recommended)
 - Maven (recommended)
 
-# Migration policy
+## Migration policy
 - Don't aim exact same html
     - Aim similar looking html
 - Don't cover all patterns completely
